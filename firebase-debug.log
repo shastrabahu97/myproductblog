@@ -1,0 +1,52 @@
+[debug] [2020-05-08T23:34:13.699Z] ----------------------------------------------------------------------
+[debug] [2020-05-08T23:34:13.702Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\AMAN GUPTA\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2020-05-08T23:34:13.702Z] CLI Version:   3.18.2
+[debug] [2020-05-08T23:34:13.702Z] Platform:      win32
+[debug] [2020-05-08T23:34:13.702Z] Node Version:  v8.9.4
+[debug] [2020-05-08T23:34:13.703Z] Time:          Sat May 09 2020 05:04:13 GMT+0530 (India Standard Time)
+[debug] [2020-05-08T23:34:13.703Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2020-05-08T23:34:13.815Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2020-05-08T23:34:13.815Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\AMAN GUPTA
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-05-08T23:34:39.459Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-05-08T23:34:39.459Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1//0gDqfHzhle3dvCgYIARAAGBASNwF-L9IryZvBBR3_8XMSawQhtB0XWy-AQCF4ymeYs2sP1FAgcPDegrOUfNqKGo_EOkyFR3hKk9A',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat May 09 2020 05:04:39 GMT+0530 (India Standard Time)
+[debug] [2020-05-08T23:34:40.249Z] <<< HTTP RESPONSE 200
+[debug] [2020-05-08T23:34:40.279Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Sat May 09 2020 05:04:40 GMT+0530 (India Standard Time)
+[debug] [2020-05-08T23:34:43.131Z] Error: certificate has expired
+    at TLSSocket.<anonymous> (_tls_wrap.js:1103:38)
+    at emitNone (events.js:106:13)
+    at TLSSocket.emit (events.js:208:7)
+    at TLSSocket._finishInit (_tls_wrap.js:637:8)
+    at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:467:38)
+[error] 
+[error] Error: Server Error. certificate has expired
